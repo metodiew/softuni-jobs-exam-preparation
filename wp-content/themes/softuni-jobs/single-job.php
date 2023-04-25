@@ -6,7 +6,7 @@
 
 		<?php while( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/single-post', 'item' ); ?>
+			<?php get_template_part( 'template-parts/job', 'item' ); ?>
 
 		<?php endwhile; ?>
 

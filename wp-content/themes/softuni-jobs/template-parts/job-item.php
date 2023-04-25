@@ -1,3 +1,6 @@
+<?php
+$location = ''; // get the data dynamically
+?>
 <li class="job-card">
     <div class="job-primary">
         <h2 class="job-title">
@@ -8,7 +11,7 @@
             <span class="meta-date"><?php the_date(); ?></span>
         </div>
         <div class="job-details">
-            <span class="job-location">The Hague (The Netherlands)</span>
+            <span class="job-location">Location: <?php echo $location; ?></span>
             <span class="job-type">Contract staff</span>
         </div>
     </div>
